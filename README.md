@@ -233,6 +233,11 @@ const App = () => {
 }
 ```
 
+## Sample output
+
+![alt text](https://github.com/tusha-ar/Forms-on-a-fly/blob/master/sample.jpg?raw=true)
+
+
 ## Rows and columns configuration in object
 
 ```
