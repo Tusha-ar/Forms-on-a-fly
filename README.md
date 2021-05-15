@@ -235,7 +235,7 @@ const App = () => {
 
 ## Sample output
 
-![sample form](https://github.com/Tusha-ar/Forms-on-a-fly/blob/master/Images/sample.jpg)
+![sample Form](https://github.com/Tusha-ar/Forms-on-a-fly/blob/master/Images/sample.jpg)
 
 
 ## Rows and columns configuration in object
