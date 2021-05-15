@@ -1,9 +1,20 @@
 {
   "name": "form-on-a-fly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple react component that takes in an configuration object and a submit function as props to spit out a bootstraped dynamic form with validation and stuff using react hook form under the hood. There are some cool things which the library supports.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "keywords": [
+    "react forms",
+    "forms",
+    "dynamic forms",
+    "json forms",
+    "validation forms"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tusha-ar/Forms-on-a-fly"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
