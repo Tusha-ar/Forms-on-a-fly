@@ -17,7 +17,7 @@ export const HandleFieldType = ({ items, register, errors }) => {
         <div key={index} className="container">
           <div key={index} className="col row">
             {column.map((col, index) => 
-            <div className="col">
+            <div className="col" key={index}>
                 {col.type === "text" && <Text {...col} errors={errors} register={register} />} 
                 {col.type === "radio" && <Radio {...col} errors={errors} register={register}/>}
                 {col.type === "textarea" && <TextArea {...col} errors={errors} register={register} />}
@@ -26,7 +26,7 @@ export const HandleFieldType = ({ items, register, errors }) => {
                 </div>
             )}
           </div>
-          <div>
+          <div className="col row">
             {column.map((col, index) => (
               <div key={index} className="col">
                 {col.type === "heading" && <Heading {...col} />}
