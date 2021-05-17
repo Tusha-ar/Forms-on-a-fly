@@ -23,17 +23,11 @@ export const HandleFieldType = ({ items, register, errors }) => {
                 {col.type === "textarea" && <TextArea {...col} errors={errors} register={register} />}
                 {col.type === "checkbox" && <Checkbox {...col} errors={errors} register={register}/>}
                 {col.type === "file" && <File {...col} errors={errors} register={register} />} 
-                </div>
-            )}
-          </div>
-          <div className="col row">
-            {column.map((col, index) => (
-              <div key={index} className="col">
                 {col.type === "heading" && <Heading {...col} />}
                 {col.type === "paragraph" && <Paragraph {...col} />}
                 {col.type === "line" && <Line />}
-              </div>
-            ))}
+                </div>
+            )}
           </div>
         </div>
       ))}
