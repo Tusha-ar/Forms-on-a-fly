@@ -1,6 +1,6 @@
 {
   "name": "form-on-a-fly",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple react component that takes in an configuration object and a submit function as props to spit out a bootstraped dynamic form with validation and stuff using react hook form under the hood. There are some cool things which the library supports.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
