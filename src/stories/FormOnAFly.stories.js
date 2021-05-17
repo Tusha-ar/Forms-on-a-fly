@@ -149,14 +149,6 @@ stories.add("FormOnAFly", () => {
                         {
                           label: "No",
                           value: "no",
-                          showOnSelect: [
-                            [
-                              {
-                                type: "paragraph",
-                                text: "Honest ah...",
-                              },
-                            ],
-                          ],
                         },
                       ],
                     },

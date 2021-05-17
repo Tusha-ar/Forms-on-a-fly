@@ -17,7 +17,7 @@ export const Radio = ({
       `Accepted radio options as Array but got ${typeof options}`
     );
 
-  function handleConditionalRender(items) {
+  function handleConditionalRender(items=[[]]) {
     if (items) {
       ReactDOM.render(
         <HandleFieldType items={items} register={register} errors={errors} />,
